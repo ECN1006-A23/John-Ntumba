@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Droit d'auteur et plagiat dans le monde numérique</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bitter:wght@300&family=Dancing+Script:wght@500&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #F5F5DC; /* Beige sable */
+      color: #343A40; /* Gris foncé */
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+
+    h1, h2 {
+      font-family: "Bitter", serif;
+      text-align: center;
+      padding: 2%;
+      border: 1px solid #D2691E; /* Marron terre cuite */
+      background-color: #228B22; /* Vert forêt */
+      color: #FFFFFF; /* Blanc éclatant */
+      font-weight: 900;
+    }
+
+    .paragraph1, .paragraph2, li {
+      font-size: 20px;
+      color: #9ec8b9; /* Vert forêt */
+    }
+
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 15px 20px;
+      color: #FFFFFF; /* Blanc éclatant */
+      background: #007BFF; /* Bleu électrique */
+      font-family: "Times New Roman", Times, serif;
+      border-color: #007BFF; /* Bleu électrique */
+      font-size: 30px;
+      cursor: pointer;
+      border-style: solid;
+    }
+
+    button:hover {
+      background-color: #228B22; /* Vert forêt */
+      border-radius: 20px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      border: 5px solid #000000; /* Noir profond */
+      width: 640px;
+      box-shadow: 90% rgb(0, 0, 0);
+    }
+
+    .cadretexte, .cadrecitations {
+      background-color: #1b4242;
+      padding: 2%;
+      border: 10%;
+      width: 60%;
+      border-color: #1a5b7b;
+      margin: auto;
+      border-radius: 15%;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>
+    Droit d'auteur et plagiat dans le monde numérique : Analysez
+    comment le passage au numérique soulève des questions complexes.
+  </h1>
+
+  <div class="cadretexte">
+    <p class="paragraph1">
+      Le passage au numérique dans l’écriture soulève des questions complexes, notamment en matière de droits d'auteur, de licences et de plagiat en ligne. Dans un monde où l’information est partagée à grande échelle, ce sujet est crucial. Cette revue explore les défis de la protection de l'intégrité intellectuelle à l'ère numérique en analysant divers aspects du droit d'auteur, des licences et du plagiat en ligne.
+    </p>
+
+    <p class="paragraph2">
+      Certains estiment qu’à l’ère du numérique, l’information devrait être librement accessible, sans restriction. Cependant, cette vision ignore les efforts créatifs des auteurs et leur droit de contrôler la distribution de leurs œuvres. L’équilibre entre l’accessibilité de l’information et le respect du droit d’auteur est délicat.
+    </p>
+  </div>
+
+  <button>Mon bouton</button>
+
+  <img src="https://images.unsplash.com/photo-1655802326047-407fe37539ae?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="un écran de téléphone" width="800" />
+
+  <hr />
+
+  <div class="cadrecitations">
+    <h2>Références</h2>
+    <li>
+      <a href="https://www.cairn.info/comment-developper-votre-activite-grace-aux-medias--9782100784677.htm">Ma source 1</a> : March , V .(2019)
+      <em>Comment développer votre activité grâce aux médias sociaux </em>.Dunod.
+    </li>
+    <li>
+      <a href="https://journals.openedition.org/rfsic//4813">Ma source 2</a> : "Delias, Mélanie Lallet
+      <em>« La remédiation des savoirs en santé dans les communautés en ligne
+        sur les transidentités »</em>, Revue française des sciences de l’information et de la communication,
+      2018"
+    </li>
+  </div>
+
+  <script>
+    function infoBouton() {
+      let prenom = prompt("quel est ton prénom ?");
+      let nom = prompt("quel est ton nom de famille ?");
+      alert("Merci " + prenom + " " + nom + " d'avoir visité mon site web");
+    }
+
+    let monbouton = document.querySelector("button");
+    monbouton.addEventListener("click", infoBouton);
+  </script>
+</body>
+
+</html>
